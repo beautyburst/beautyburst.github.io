@@ -1,0 +1,110 @@
+body {
+  font-family: sans-serif;
+  margin: 0pt;
+}
+
+li {  
+  margin-bottom: 1ex;  
+  margin-top: 1ex;
+}
+hr {
+  border: 0;
+  height: 2px;
+  background: #888;
+  background-image: linear-gradient(to right, #ccc, #888, #ccc);
+  margin: 2em 0;
+}
+.sc {
+  font-variant: small-caps;
+}
+
+.dtnote {
+  background-color: yellow;
+  font-family: Sans-Serif;  
+  font-weight: bold;
+}
+
+.subtle-links :link, .subtle-links :visited, .subtle-links :hover, .subtle-links :active { 
+  color: black;
+}
+.silent-links :link, .silent-links :visited, .silent-links :hover, .silent-links :active {
+  color: black; 
+  text-decoration: none;
+  -webkit-text-decoration: none;
+}
+
+div.top {
+   color: white;
+   background-color: rgb(64, 96, 255);
+   padding: 0.6em;
+   text-align: center;
+}
+h1 {
+  font-size: 200%;
+}
+h3 {
+  margin-top: 2em;
+}
+table.authors {
+  width: 80%;
+  text-align: left;
+  max-width: 78em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.authors tbody {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+.authorname {
+    font-size: 140%;
+}
+.institution {
+    font-size: 95%;
+}
+div.top table.authors tbody tr td {
+   color: white;
+   padding-left: 0.3em;
+   padding-right: 0.3em;
+}
+div.top  :link,
+div.top  :visited,
+div.top  :hover,
+div.top  :active,
+div.top .silent-links :link,
+div.top .silent-links :visited,
+div.top .silent-links :hover,
+div.top .silent-links :active,
+div.top .subtle-links :link,
+div.top .subtle-links :visited,
+div.top .subtle-links :hover,
+div.top .subtle-links :active
+{ color: white; }
+
+div.content {
+   padding: 1.5em 3em;
+   text-align: justify;
+   max-width: 78em;
+   margin-left: auto;
+   margin-right: auto;
+}
+      
+div.figure {
+  text-align: center;
+  margin: 1em;
+}
+div.subfigure {
+}
+div.image {
+  border: 1px solid;
+  margin: 1ex; 
+  width: 800px;
+  display: inline-block;
+}
+div.caption {  
+  text-align: center;  
+  font-family: Sans-Serif;  
+  font-size: 85%;  
+  margin: 0.8em;
+}
